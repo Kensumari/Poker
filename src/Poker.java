@@ -13,7 +13,7 @@ public class Poker {
             handCards.add(deck.get(0));
             deck.remove(0);
         }
-        this.deck.transformCard(handCards);
+        this.deck.toString();
         return handCards;
     }
 
@@ -27,7 +27,7 @@ public class Poker {
         List<Integer> countMatch = new ArrayList<>();
         List<Integer> valueCards = new ArrayList<>();
         for(Card card : cards){
-            valueCards.add(card.value);
+            valueCards.add(card.);
         }
         for(Integer card1: valueCards){
             for(Integer card2: valueCards){

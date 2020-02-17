@@ -4,39 +4,19 @@ import java.util.Random;
 
 public class Deck {
 
-    String[] suits = {"Spades","Hearts","Clubs","Diamonds"};
     List<Card> cards = new ArrayList<>();
 
     public void generateCards(){
-        for (String suit:suits) {
-            for(int i = 2; i <= 14; i++){
-                cards.add(new Card(suit,i));
+        for (CardSuit suit: CardSuit.values()) {
+            for(CardValue value: CardValue.values()){
+                cards.add(new Card(suit,value));
             }
         }
     }
 
-    public void transformCard(List<Card> cards){
-        char c = '\0';
-        for(Card card:cards){
-            switch(card.value){
-                case 11:
-                    c = 'J';
-                    break;
-                case 12:
-                    c = 'Q';
-                    break;
-                case 13:
-                    c = 'K';
-                    break;
-                case 14:
-                    c = 'A';
-                    break;
-            }
-            if(card.value >= 11){
-                System.out.println(card.suit + c);
-                continue;
-            }
-            System.out.println(card.suit + card.value);
+    public void printCards(List<Card> cards){
+        for(Card card: cards){
+            System.out.println(card);
         }
     }
     public List<Card> shuffleCards(List<Card> cards){

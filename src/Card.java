@@ -1,9 +1,23 @@
 public class Card {
-    //Value will vary from 2-14 where 11 = J 12 = Q 13 = K 14 = A
-    String suit;
-    int value;
-    public Card(String suit, int value){
+
+    private final CardSuit suit;
+    private final CardValue value;
+
+    public Card(CardSuit suit, CardValue value){
         this.suit = suit;
         this.value = value;
+    }
+
+    public CardSuit getSuit(){
+        return suit;
+    }
+
+    public CardValue getValue(){
+        return value;
+    }
+
+    @Override
+    public String toString(){
+        return "Card[" + suit + ", " + value + "]";
     }
 }

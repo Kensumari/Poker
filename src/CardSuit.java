@@ -1,3 +1,3 @@
-public enum cardSuit {
+public enum CardSuit {
     Spades, Hearts, Clubs, Diamonds
 }

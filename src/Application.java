@@ -12,9 +12,9 @@ public class Application {
         List<Card> newCards;
         List<Card> handCards;
         deck.generateCards();
-        deck.transformCard(deck.cards);
+        deck.printCards(deck.cards);
         newCards = deck.shuffleCards(deck.cards);
-        deck.transformCard(newCards);
+        deck.printCards(newCards);
         System.out.println("Your cards are");
         //starting hand
         handCards = poker.dealingHand(5,newCards);

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec8a852b-5487-415e-ad0f-e825f43bddca" name="Default Changelist" comment="" />
+    <list default="true" id="ec8a852b-5487-415e-ad0f-e825f43bddca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardSuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poker.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +19,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X6punHxGZdxv0cJ1438DjrTEMT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +40,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -34,6 +49,8 @@
   </component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="Cards" />
       <method v="2">
@@ -53,6 +70,11 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/junit-4.13.jar" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="JAR Application.junit-4.13.jar" />
+      <item itemvalue="JUnit.PokerTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
@@ -87,10 +109,19 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1016" y="552" key="FileChooserDialogImpl" timestamp="1580891482122">
+    <state x="359" y="290" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581600195050">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581328440902" />
+    <state x="359" y="290" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1581600195050" />
+    <state x="808" y="470" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581600206246">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="808" y="470" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1581600206246" />
+    <state x="1016" y="552" key="FileChooserDialogImpl" timestamp="1581328352654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1016" y="552" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580891482122" />
+    <state x="1016" y="552" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581328352654" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581065614034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,18 +154,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581065558781" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581062925428">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581321543013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581062925428" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581321543013" />
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580893406114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1580893406114" />
-    <state x="651" y="211" key="new project wizard" timestamp="1580891551916">
+    <state x="151" y="187" key="new project wizard" timestamp="1581928135031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="211" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580891551916" />
+    <state x="151" y="187" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581928135031" />
     <state x="815" y="327" key="search.everywhere.popup" timestamp="1580393245300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
